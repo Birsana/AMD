@@ -67,7 +67,6 @@ def buildModel(neuron, l, dropout):
 
 
 def multipleModels(neurons, l):
-    pass
     for i in range(int(neurons/ 2), neurons):
         for drop in range(2,6):
             for j in range(l):
